@@ -1,0 +1,37 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    background:goldenrod;
+    text-align: justify;
+    margin: 12px;
+}
+h1{
+    font-family: serif , "Merriweather";
+    font-size: 30px;
+    background-image: url(image/css3selectors_07.jpg);
+    height: 130;
+    color:green;
+    text-align: center;
+    text-transform: uppercase;
+}
+img{
+    width: 12.5%;
+    float: right;
+    clear: both;
+}
+
+article, aside, footer, h1, menu, nav, section{
+    display: block;
+}
+
+article,section{
+    margin: 20px;
+}
+
+image, nav, text, aside{
+    padding: 2px;
+}
+
+nav{
+    float: right;
+}
